@@ -2,13 +2,13 @@ const router = require('express').Router();
 const mongoose = require('mongoose')
 const request = require('request');
 
-const apiKey = "5135439990cde7c83544ab8e4251f1db";
+const apiKey = "
 
 const options = {
   connectTimeoutMS: 5000,
   useNewUrlParser: true
 };
-mongoose.connect('mongodb://bloodshine:eheh69@ds063158.mlab.com:63158/mymoviezapp', options, error => {
+mongoose.connect('mongodb://user:password@ds063158.mlab.com:63158/mymoviezapp', options, error => {
   if (error) {
     console.error(error);
   } else {
